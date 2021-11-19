@@ -22,8 +22,10 @@ body {
   margin-top: 10px;
   width: 100vh;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  align-items: space-around;
 }
 
 ul {
@@ -50,7 +52,9 @@ li {
   width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items:space-around;
 }
 
 h1 {
@@ -63,7 +67,9 @@ h1 {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
+  flex-wrap:wrap;
   justify-content: space-around;
+  align-items:space-around;
 }
 
 button {
