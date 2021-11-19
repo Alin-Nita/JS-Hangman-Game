@@ -1,0 +1,46 @@
+body {
+  margin: 15px;
+  background-color: cornsilk;
+  margin-top: 15px, auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(82, 88, 56);
+  margin-top: 40%;
+  margin-left: auto;
+}
+
+.img {
+  /* width: 10em;
+  height: 20em; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+a {
+  margin-top: 30px;
+  color: azure;
+  text-decoration: none;
+  background-color: rgb(40, 32, 41);
+  width: 4cm;
+  height: 1.5cm;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+a:hover {
+  background-color: rgb(209, 135, 44);
+  border-radius: 20px;
+  transition: background-color 1s, border-radius 1s;
+  border-color: yellow;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em yellow;
+  cursor: pointer;
+  color: brown;
+}

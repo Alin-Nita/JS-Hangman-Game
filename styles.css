@@ -1,0 +1,45 @@
+body {
+  height: 100%;
+  width: 100vw;
+  margin-top: 5px, auto;
+  background-image: url(./assets/jigsaw-play-a-game-image.jpeg);
+  background-blend-mode: color-burn;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+a {
+  color: azure;
+  text-decoration: none;
+  background-color: rgb(40, 32, 41);
+  width: 30%;
+  height: 10%;
+  font-size: x-large;
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+a:hover {
+  background-color: rgb(209, 135, 44);
+  border-radius: 20px;
+  transition: background-color 1s, border-radius 1s;
+  border-color: yellow;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em yellow;
+  cursor: pointer;
+  color: brown;
+}
